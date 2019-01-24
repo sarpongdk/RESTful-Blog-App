@@ -1,11 +1,11 @@
 To run the app, you will need:
 	- Node & npm
 Node can be installed using the command:
-brew install node
+$ brew install node
 
-Clone this repository into a directory and run the command:
-npm install
-mongod
-node app.js
+Clone this repository into a directory and run the commands:
+$ npm install
+$ mongod
+$ node app.js
 
 
