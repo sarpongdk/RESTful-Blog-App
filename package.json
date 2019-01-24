@@ -1,7 +1,7 @@
 {
   "name": "restfulblogapp",
   "version": "1.0.0",
-  "description": "A blog application that confirms to REST",
+  "description": "A blog application that conforms to RESTful conventions",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
