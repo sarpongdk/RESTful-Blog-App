@@ -5,9 +5,10 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const expressSanitizer = require('express-sanitizer');
 const app = express();
+require('dotenv').config()
 
 // mongoose/model config
-mongoose.connect('mongodb://localhost/restful_blog_app' , {useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/restful_blog_app' , {useNewUrlParser: true});
 
 const blogSchema = new mongoose.Schema({
     title: {type: String},
