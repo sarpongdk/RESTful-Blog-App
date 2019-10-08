@@ -20,4 +20,8 @@ Clone this repository into a directory and run the commands in the terminal:
 `mongod`
 `node app.js`
 
+## Potential Improvements
+1. User registration and user accounts, with blogs attached to each account
+2. User authentication and authorization
+
 
