@@ -15,10 +15,10 @@ Likewise mongodb can be installed via:
 `brew install mongodb`
 
 Clone this repository into a directory and run the commands in the terminal:
-`cd <directory-name>`
-`npm install`
-`mongod`
-`node app.js`
+- `cd <directory-name>`
+- `npm install`
+- `mongod` to start the mongodb daemon.
+- `node app.js` on a different terminal to start the application
 
 ## Potential Improvements
 1. User registration and user accounts, with blogs attached to each account
